@@ -1,0 +1,6 @@
+INSERT INTO `programmers` (`id`,`programmer`,`experience`,`is_senior`,`friend_id`) 
+  VALUES (1,'Stallman',4,0,6),(2,'knuth',8,1,6),(3,'venema',1,0,8),(4,'gates',9,'true',NULL),(5,'hopper',3,0,3),(6,'van rossum',4,0,1),(7,'Jake',9,1,7),(8,'stroustrup',7,1,6)
+INSERT INTO `technologies` (`id`,`technology`)
+  VALUES (1,'c++'),(2,'python'),(3,'emacs'),(4,'postfix'),(5,'microsoft bob'),(6,'tex'),(7,'cobol')
+INSERT INTO `programmers_technologies` (`programmer_id`,`technology_id`)
+  VALUES (6,2),(2,6),(5,8),(7,3),(3,2),(8,1)
